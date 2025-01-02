@@ -70,14 +70,55 @@ t [ej] [tx] [uz] q [ej] [tx] [iz] w [rh] y [oh] - [etupj] [etupj] ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Sigma Boy", "Auto", function()
+Section:NewButton("Chipi Chipi", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
  
-shared.scr = [[ [Gyp] L [kua] L x [CIp] L [juO] H f [jyp] L [kuO] x [CIp] C L G [Gy] [GIS] G y [LIS] y [ku] [aO] k u [LOa] u [jI] [pS] j [pS] [kpS] u [HT] u [OGu] [afu] [dGy] [dGp] [SGI] [jLp] [Hku] [Oa] [HkIp] [kxuO] [LCI] p [jLpS] [HkT] u [fHuO] [dG9] e y [jL] [Hk0] W u [fH] [pSGQ] e I [f$] [S$] [a%] [p%] [O6] [I6] [u7] [T7] [IG2] [IG9] [GI] 2 [SL9] 2 [ak3] 0 [ak] 3 [SL0] 3 3 [pj$] Q [pj] $ [akQ] * [OH3] 0 [IG] 3 [uf0] 3 [IG26Q] [IG] [IG] [SL26Q] [ak37W] [ak] [SL37W] [pj] [OH37W] [IG$*e] [ep$] [OW] [QI%] [u0] [*T6] [0u7] [TI$] [TI$] [IT] $ [IS$] [yIa7] 7 [Iay] 7 [IaS7] [yIp2] 9 [Ipy] 2 [upa9] [uO3] 0 [uI3] [Tu0] [TI$] [TI$] [IT] $ [IS$] [yIa7] [yIa7] [Iay] 7 [IaS7] [yIp2] [yIp9] [Ipy] 2 [upa9] [uO3] 0 [uO3] [Oa0] [TI$] [TI$] [IT] $ [IS$] [yIa7] 7 [Iay] 7 [IaS7] [yIp2] 9 [Ipy] 2 [upa9] [uO3] 0 3 0 [TI$] [TI$] [IT] $ [IS$] [yIa7] [yIa7] [Iay] 7 [IaS7] [yIp2] [yIp9] [Ipy] 2 [upa9] [uO3] 0 [TI3] [ru0] [TI$*] [IT] [SI] [yIa26] [ayI] [ayI] [Tup37] [Tup] [ruO!%] [TI$*] [IT] [IT] [SI] [yIa26] [ayI] [ayI] [SIa] [Ip37] [pI] [pI] [aI] [ruO37] [uI%*] [Tu] [TIp$6] ]]
+shared.scr = [[ [6p] 6 [6a] 6 [5s] 5 [5d] [5g] 
+4 4 4 4 4 [4f] [5d] [5s] 
+[6p] 6 [6a] 6 [5s] 5 [5d] [5p] 
+4 4 4 4 4 [4s] [5a] [5s] 
+[6p] 6 [6a] 6 [5s] 5 [5d] [5g] 
+4 4 4 4 4 [4f] [5d] [5s] 
+[6p] 6 [6a] 6 [5s] 5 [5d] [5p] 
+3 3 3 3 [3O] 3 3 [3u] 
+[6p] [6p] [6p] [6p] [6p] 6 5 [5p] 
+[4o] [4p] [4p] [4p] [4p] 4 4 [4p] 
+[5o] [5o] [5o] [5o] [5o] 5 [5o] [5p] 
+6 [6u] 7 7 1 8 7 [7u] 
+[6p] [6p] [6p] [6p] [6p] 6 5 [5p] 
+[4o] [4p] [4p] [4p] [4p] 4 4 [4p] 
+[5o] [5o] [5o] [5o] [5o] 5 [5o] [5p] 
+6 [6u] 7 7 1 [8u] [!y] [*t] 
+[2y] [9u] [2y] [9t] [2y] 9 [2y] [9t] 
+[3y] [0u] [3y] [0t] [3y] 0 [3u] [0t] 
+6 [6u] 6 6 7 7 [1tu] [8et] 
+6 [6tu] 6 6 7 [7u] [1y] [8t] 
+[2y] [9u] [2y] [9t] [2y] [9u] [2y] [9t] 
+[3y] [0u] [3y] [0t] [3y] 0 [3u] [0s] 
+6 [6e] 6 [6u] 6 6 6 [6p] 
+3 0 3 0 [3f] 0 3 0 
+[6tuO] [6p] [6O] [6p] [6O] [6p] [6O] [6p] 
+[4tiO] [4p] [4O] [4p] [4O] [4p] [4O] [4p] 
+[5ryo] [5o] [5o] [5o] [5s] [5s] [5a] [5o] 
+[6tup] 6 [7p] 7 [1p] 8 [7p] 7 
+[6tuO] [6p] [6O] [6p] [6O] [6p] [6O] [6p] 
+[4tiO] [4p] [4O] [4p] [4O] [4p] [4O] [4p] 
+[5ryo] [5o] [5o] [5o] [5s] [5s] [5a] [5o] 
+[6tup] 6 7 7 1 8 7 7 
+[6tuO] [6p] [6O] [6p] [6O] [6p] [6O] [6p] 
+[4tiO] [4p] [4O] [4p] [4O] [4p] [4O] [4p] 
+[5ryo] [5o] [5o] [5o] [5s] [5s] [5a] [5o] 
+[6tup] 6 [7p] 7 [1p] 8 [7p] 7 
+[6tuO] [6p] [6O] [6p] [6O] [6p] [6O] [6p] 
+[4tiO] [4p] [4O] [4p] [4O] [4p] [4O] [4p] 
+[5ryo] [5o] [5o] [5o] [5a] [5a] [5p] [5o] 
+[O3ua] 3 3 3 3 3 3 3 
+3 3 2 9 1 8 7 7 
+6 ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
