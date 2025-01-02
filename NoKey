@@ -70,7 +70,7 @@ t [ej] [tx] [uz] q [ej] [tx] [iz] w [rh] y [oh] - [etupj] [etupj] ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Chipi Chipi", "Auto", function()
+Section:NewButton("chipi chipi chapa chapa", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
