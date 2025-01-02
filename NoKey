@@ -209,7 +209,7 @@ Section:NewButton("i like the way you kiss me", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
