@@ -204,7 +204,7 @@ fDfDfads [p6] 0e tup [a3] 0W usa [p6] 0e asd [f8] wt ogf [d5] wr ifd [s6] 0e uds
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("My Music-", "Auto", function()
+Section:NewButton("i like the way you kiss me", "Auto", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -213,40 +213,95 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
-shared.scr = [[ [qo] d s o a – a – s w o s o a – a – s
-[eo] d s o a – a – s t o s f d – s – d
-[qto] d s o a – a – s [wy] o s o a – a – s
-[euo] d s o a – a – s [wt] o s f d – s – d [4o] d [8s] o [wa] – a-8 s 5 o [8s] o [ra] – a-w s
-[6o] d [0s] o [ra] – a-0 s 8 o [ws] f [yd] – s-t d
-[qo] [td] [qs] [to] [qa] t-a-q [ts] w [yo] [ws] [yo] [wa] y-a-w [ys] [eo] [ud] [es] [uo] [ea] u-a-e [us] r [uo] [os] [rf] [ud] o-s-y [rd] [4qo] d s o [qia] – a – s [5w] o s o [woa] – a – s
-[6eo] d s o [epa] – a – s [8ts] o s o t |
-[4o]-8-[qd]-8-[4s]-8-[qo]-4-[8a]-q-8-[4a]-8-q-[8s]-4
-5-9-[wo]-9-[5s]-9-[wo]-9-[5a]-9-w-[9a]-5-q-[9s]-5
-[6o]-0-[ed]-0-[6s]-e-[0o]-6-[0a]-e-6-[0a]-e-0-[6s]-e
-8-w-[to]-w-[8s]-w-[8f]-w-[td]-w-8-[ws]-8-t-[8d]-w
-[5o]-5-5-5-[6p]-6-6-6-[7a]-7-7-7-[9d]-9-9-9
-[5p] f [9d] p [epS] – [pS]-9 [pd] 6 p [9d] p [pTS] – [pS]-e [pd] [7p] f [Qd] p [pTS] – [pS]-Q [pd] 9 p [ed] G [upf] – [pd]-y [pf] [5p] f [9d] p [epS] – [pS]-9 [pd] 6 p [9d] p [pTS] – [pS]-e [pd] [7p] f [Qd] p [pTS] – [pS]-Q [pd] 9 p [ed] G [upf] – [pd]-y [pf] 5 – 9 – w – [7r] –
-[oj] x z j L – L – z p j z j L – L – z
-[aj] x z j L – L – z d j z C x – z – x
-[oj] x z j L – L – z p j z j L – L – z
-[aj] x z j L – L – z d j z C x – z – x
-[qh] z l h k – k – l w h l h k – k – l
-[eh] z l h k – k – l t h l x z – l – z
-[qh] z l h k – k – l w h l h k – k – l
-[eh] z l h k – k – l t h l x z l z
-[4h] z [8l] h [wk] – k8 l 5 h [8l] h [rk] – k8 l
-[6h] z [0l] h [rk] – ke l 8 h [wl] x [yz] – lt z
-[qo] d [ts] o [oa] – at s w o [ts] o a – at s
-[eo] d [us] o a – ap s t o [os] f d – ss d
-[4o] d [8s] o [wa] – a8 s 5 o [8s] o [ra] – a8 s
-[6o] d [0s] o [ra] – ae s 8 o [ws] f [yd] – st d
-[4o] d [8s] o [wa] – a8 s 5 o [8s] o [ra] – a 8 s
-[6o] d [0s] o [ra] – ae s 8 o [ws] f [yd] – st d
-[4qo] d [8s] o [woa] – [oa]8 s [5w] o [8s] o [roa] – [oa]8 s
-[6eo] d [0s] o [roa] – [oa]e s [8t] o [ws] f [yod] – [os]t [od] [4qo] d [8s] o [woa] – [oa]8 s [5w] o [8s] o [roa] – [oa]8 s
-[6eo] d [0s] o [roa] – [oa]e s [8t] o [ws] f [yod] – [os]t [od] [4qo] d [8s] o [woa] – [oa]8 s [5ws] o [8s] o [roa] – [oa]8 s
-[6eo] d [0s] o [roa] – [oa]e s [8ts] o [ws] f [yod] – [os]t [od] [4qo] d [8s] o [woa] – [oa]8 s [5ws] o [8s] o [roa] – [oa]8 s
-[6eo] d [0s] o [roa] – [oa]e s [8ts] o [ws] f [yod] – [os]t [od] ]]
+shared.scr = [[ 6 6 [60] [6o] [6o] [6i] [60i] [6u]
+[6u] 6 [60y] 6 6 6 [60] 6
+6 6 [60] [6o] [6o] [6i] [60i] [6u]
+6 6 [60] 6 [6u] 6 [60] 6
+6-[0et] [0h] [6h] [0g] [0etg] [0f]
+[4f]-[qetd] q [8s] [qd] [qetf] [qg]
+[8f]-[0wtd] 0 [8s] [0d] [0wtf] [0g]
+[3f]-[0wrf] 0 [7f] 0 [0wrf] 0
+6-[0et] [0h] [6h] [0g] [0etg] [0f]
+[4f]-[qetd] [qs] [8s] [qd] [qetf] [qg]
+[8f]-[0wtd] [0s] [8s] [0d] [0wtf] [0g]
+[3f]-[0wr] 0 7 0 [0wr] 0
+6-[0et] [0ph] [6ph] [0pg] [0etpg] [0pf]
+[4pf]-[qetpd] q [8ps] [qpd] [qetpf] [qpg]
+[8sf]-[0wtod] 0 [8os] [0od] [0wtof] [0og]
+[3af]-[0wraf] 0 [7af] 0 [0wraf] 0
+6-[0et] [0ph] [6ph] [0pg] [0etpg] [0pf]
+[4pf]-[qetpd] [qps] [8ps] [qpd] [qetpf] [qpg]
+[8sf]-[0wtod] [0os] [8os] [0od] [0wtof] [0og]
+[3af]-[0wr] 0 7 0 [0wr] [0g]
+[6f] 0 t g f 0 t [0g]
+[4f] q t g f q t [qg]
+[8f] w t g f w t [wf]
+[3h] 0 r g f 0 r [0g]
+[6sf] 0 t g [sf] 0 t [0g]
+[4sf] q [tg]-[sf] q t [qg]
+[8sf] w t g f [wg] [tf] [wg]
+[3af] 0 [ru] u u [0u] [ru] [0u]
+[6eu] 0 [et] l k 0 [etj] 0
+[4g] q [etu] u u [qu] [etu] [qu]
+[8wu] 0 [wt] h h 8 [wth] 8
+[3H] [0u] [wru] u u [0u] [wru] [0u]
+[6eu] 0 [et] l k 0 [etj] 0
+[4z] q [et][qu]u[et] [qu]
+[8wu] 0 [wt][8u]u[wtu] [8u]
+[30ru]-[ry]-t-
+6-[0et] [0h] [6h] [0g] [0etg] [0f]
+[4f]-[qetd] q [8s] [qd] [qetf] [qg]
+[8f]-[0wtd] 0 [8s] [0d] [0wtf] [0g]
+[3f]-[0wrf] 0 [7f] 0 [0wrf] 0
+6-[0et] [0h] [6h] [0g] [0etg] [0f]
+[4f]-[qetd] [qs] [8s] [qd] [qetf] [qg]
+[8f]-[0wtd] [0s] [8s] [0d] [0wtf] [0g]
+[3f]-[0wr] 0 7 0 [0wr] 0
+6-[0et] [0ph] [6ph] [0pg] [0etpg] [0pf]
+[4pf]-[qetpd] q [8ps] [qpd] [qetpf] [qpg]
+[8sf]-[0wtod] 0 [8os] [0od] [0wtof] [0og]
+[3af]-[0wraf] 0 [7af] 0 [0wraf] 0
+6-[0et] [0ph] [6ph] [0pg] [0etpg] [0pf]
+[4pf]-[qetpd] [qps] [8ps] [qpd] [qetpf] [qpg]
+[8sf]-[0wtod] [0os] [8os] [0od] [0wtof] [0og]
+[3af]-[0wr] 0 7 [0u]u[0wru] [0u]
+[6eu] 0 [et][0u]u[etu] [0u]
+[4tu] q [et][qu]u[etu] [qu]
+[8wu] 0 [wt][8u]u[wtu] [8u]
+[3ru] 0 [wr][0u]u[0wru] [0ru]
+[6up] 0 [et][0p]p[etup] [0ti]
+[4ti] q [et][qu][tu][qe] [qtu]
+[8wu] 0 [wt][8u]u[0wtu] [8tu]
+[30ru]-[ry]-t-
+[6psfj]-[0et] 0 6 0 [0et] 0
+4-[qet] q [8gjlc] q [qet] q
+[8fhlx]-[0wt] 0 8 0 [0wt] [0u]
+[3u]-[0wry] 0 [7t] 0 [0wr] 0
+[6psfj]-[0et] 0 6 0 [0et] 0
+4-[qet] q [8gjlc] q [qet] q
+[8hlxv]-[0wt] 0 8 0 [0wt] [0u]
+[30u] 0 [0y] 0 [0t] 0 0 0
+6-[0et] [0hv] [6hv] [0gc] [0etgc] [0fx]
+[4fx]-[qetdz] q [8sl] [qdz] [qetfx] [qgc]
+[8fx]-[0wtdz] 0 [8sl] [0dz] [0wtfx] [0gc]
+[3fx]-[0wrfx] 0 [7fx] 0 [0wrfx] 0
+6-[0et] [0hv] [6hv] [0gc] [0etgc] [0fx]
+[4fx]-[qetdz] [qsl] [8sl] [qdz] [qetfx] [qgc]
+[8fx]-[0wtdz] [0sl] [8sl] [0dz] [0wtfx] [0gc]
+[3fx]-[0wrx] 0 [7x] 0 [0wrx] 0
+6-[0et] [0hv] [6hv] [0gc] [0etgc] [0fx]
+[4fx]-[qetdz] q [8sl] [qdz] [qetfx] [qgc]
+[8fx]-[0wtdz] 0 [8sl] [0dz] [0wtfx] [0gc]
+[3fx]-[0wrfx] 0 [7fx] 0 [0wrfx] 0
+6-[0et] [0hv] [6hv] [0gc] [0etgc] [0fx]
+[4fx]-[qetdz] [qsl] [8sl] [qdz] [qetfx] [qgc]
+[8fx]-[0wtdz] [0sl] [8sl] [0dz] [0wtfx] [0gc]
+[3fx]-[0wrx] 0 [7x] 0 [0wrx] 0
+6 6 [60] [6o] [6o] [6i] [60i] [6u]
+[6u] 6 [60y] 6 6 6 [60] 6
+6 6 [60] [6o] [6o] [6i] [60i] [6u]
+6 6 [60] 6 [6u] 6 [60] 6
+6 ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
