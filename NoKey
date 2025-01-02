@@ -70,6 +70,18 @@ t [ej] [tx] [uz] q [ej] [tx] [iz] w [rh] y [oh] - [etupj] [etupj] ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
+Section:NewButton("Sigma Boy", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+ 
+shared.scr = [[ [Gyp] L [kua] L x [CIp] L [juO] H f [jyp] L [kuO] x [CIp] C L G [Gy] [GIS] G y [LIS] y [ku] [aO] k u [LOa] u [jI] [pS] j [pS] [kpS] u [HT] u [OGu] [afu] [dGy] [dGp] [SGI] [jLp] [Hku] [Oa] [HkIp] [kxuO] [LCI] p [jLpS] [HkT] u [fHuO] [dG9] e y [jL] [Hk0] W u [fH] [pSGQ] e I [f$] [S$] [a%] [p%] [O6] [I6] [u7] [T7] [IG2] [IG9] [GI] 2 [SL9] 2 [ak3] 0 [ak] 3 [SL0] 3 3 [pj$] Q [pj] $ [akQ] * [OH3] 0 [IG] 3 [uf0] 3 [IG26Q] [IG] [IG] [SL26Q] [ak37W] [ak] [SL37W] [pj] [OH37W] [IG$*e] [ep$] [OW] [QI%] [u0] [*T6] [0u7] [TI$] [TI$] [IT] $ [IS$] [yIa7] 7 [Iay] 7 [IaS7] [yIp2] 9 [Ipy] 2 [upa9] [uO3] 0 [uI3] [Tu0] [TI$] [TI$] [IT] $ [IS$] [yIa7] [yIa7] [Iay] 7 [IaS7] [yIp2] [yIp9] [Ipy] 2 [upa9] [uO3] 0 [uO3] [Oa0] [TI$] [TI$] [IT] $ [IS$] [yIa7] 7 [Iay] 7 [IaS7] [yIp2] 9 [Ipy] 2 [upa9] [uO3] 0 3 0 [TI$] [TI$] [IT] $ [IS$] [yIa7] [yIa7] [Iay] 7 [IaS7] [yIp2] [yIp9] [Ipy] 2 [upa9] [uO3] 0 [TI3] [ru0] [TI$*] [IT] [SI] [yIa26] [ayI] [ayI] [Tup37] [Tup] [ruO!%] [TI$*] [IT] [IT] [SI] [yIa26] [ayI] [ayI] [SIa] [Ip37] [pI] [pI] [aI] [ruO37] [uI%*] [Tu] [TIp$6] ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
 Section:NewButton("Rush E", "Auto", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
