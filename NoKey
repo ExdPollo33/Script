@@ -112,6 +112,37 @@ shared.scr = [[ y y d p O o i y i o t t d p O o i y i o r r d p O o i y i o E E 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
+Section:NewButton("Steven Universe", "Auto", function()
+    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ d f [580f] d s a 
+[79ws] a p o [69qp] 
+i 
+d f [580f] d s a 
+[79ws] a d [69qs] 
+p 
+d f [580f] d s 
+[79wa] s d [69qs] 
+p p p p o 
+[580f] d s [79wd] s a 
+[69qp] p p p o 
+[580f] d s [79wd] 
+s a [69qp] 
+p p p o [580f] d 
+s [79wd] s a 
+[69qp] p o 
+[580h] g f g [79wf] d 
+[69qs] p p p p o {tuosfhxlvm} ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
 Section:NewButton("Russia", "Auto", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
