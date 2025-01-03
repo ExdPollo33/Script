@@ -76,11 +76,22 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
  
-shared.scr = [[ [6es] p u p s p u p [8ts] o u o s o u o [0ua] O u O a O u O [0ua] O u O
-
-y u i p o p t y u i u o p o i
-
-i i i p p o i p o p o p o i i i p p o i j j j [sl] [sl] [sl] ]]
+shared.scr = [[ g-d-p-d
+g-d-p-d
+g-s-p-s
+g-s-p-s
+f-Ss-Ss-Ss
+d-f-g-j-h-j-s
+d-f-g-f-h-j-h-g
+h-h-h-j-j-h-g
+j-j-j-h-j-h-g
+h-h-h-j-j-h-g
+j-j-j
+Sl-sl-sl
+h-h-h-j-j-h-g
+j-j-j
+h-l-j-z
+g-d-p-Ss-d-f-y﻿ ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
