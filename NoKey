@@ -70,29 +70,297 @@ t [ej] [tx] [uz] q [ej] [tx] [iz] w [rh] y [oh] - [etupj] [etupj] ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Gravity Falls", "Auto", function()
+Section:NewButton("Fallen Down", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
  
-shared.scr = [[ g-d-p-d
-g-d-p-d
-g-s-p-s
-g-s-p-s
-f-Ss-Ss-Ss
-d-f-g-j-h-j-s
-d-f-g-f-h-j-h-g
-h-h-h-j-j-h-g
-j-j-j-h-j-h-g
-h-h-h-j-j-h-g
-j-j-j
-Sl-sl-sl
-h-h-h-j-j-h-g
-j-j-j
-h-l-j-z
-g-d-p-Ss-d-f-y﻿ ]]
+shared.scr = [[ [Gy] [SI] [Gp] [SI] [Gp] [SI] [Gy] [SI] [Gp] [SI] [Gp] [SI] [ar] [pY] [SI] Y [pI] [aY] [fr] [DY] [fI] [GY] [DI] [aY] [Gw] [ar] [Gy] [ar] [Gy] [ar] [Gw] [PE] [Gy] [PE] [hy] E [Gy] [dI] [Gp] [dI] [fp] [GI] [fT] u [dp] u [Sp] u [Gy] [SI] [Gp] [SI] [Gp] [SI] [Gy] [SI] [Gp] [SI] [Gp] [SI] [ar] [pY] [SI] Y [pI] [aY] [fr] [DY] [fI] [GY] [DI] [aY] [Gw] [ar] [Gy] [ar] [Gy] [ar] [Gw] [PE] [Gy] [PE] [hy] E [Gy] [dI] [Gp] [dI] [fp] [GI] [ST] I [Gp] I [Sp] u [do] y o [py] [ao] [SI] [du] T [SI] e [dr] T [pu] I T [aI] [pT] [ow] [Ie] T [GI] y [fo] I [dr] y I [py] [aI] [Sr] [de] T [Su] T [dI] P [Ga] I u [hr] [Gy] [fo] [dp] I [fu] y [Su] I [do] yo [py] [ao] [SI] [du] T [SI] e [dr] T [pu] I T [aI] [pT] [ow] [Ie] T [GI] y [fo] I [dr] y I [py] [aI] [Sr] [de] T [Su] T [dI] P [Ga] [dI] [Ga] [dI] [fa] [GI] [fp] u [dp] u [Sp] u [py] [Ip] [Ip] [jy] [Ip] [Ip] [fT] [up] [up] T [up] [up] [dr] [yI] [yI] [jr] [yI] [yI] [pe] [Tu] [Tu] e [Tu] [Tu] [pw] [ry] [ry] [dw] [ry] [ry] [jQ] [ey] [ey] Q [ey] [key] [j0] [wr] [wr] [f0] [wr] [wr] [de] [Tu] [Tu] e [Tu] [Tu] [py] [Ip] [Ip] [jy] [Ip] [Ip] [fT] [up] [up] T [up] [up] [dr] [yI] [yI] [jr] [yI] [yI] [pe] [Tu] [Tu] e [Tu] [Tu] [pw] [ry] [ry] [dw] [ry] [ry] [jQ] [ey] [ey] Q [ey] [key] [j0] [wr] [wr] [f0] [wr] [wr] [de] [Tu] [Tu] e [Tu] [Tu] [pw] [ry] [ry] [jw] [ry] [Gry] [fw] [ry] [dry] [Sw] [ry] [dry] [fQ] [eT] [eT] [LQ] [leT] [keT] [jQ] [eT] [eT] Q [eT] [eT] [a0] [wr] [wr] [j0] [wr] [Gwr] [fe] [Tu] [dTu] [fe] [Tu] [GTu] [SE] [Tu] [Tu] [fE] [Tu] [Tu] [fr] [yI] [dIp] [Se] [Tu] [dup] [pw] [ry] [ry] [jw] [ry] [Gry] [fw] [ry] [dry] [Sw] [ry] [dry] [fQ] [eT] [eT] [LQ] [leT] [keT] [jQ] [eT] [eT] Q [eT] [eT] [a0] [wr] [wr] [j0] [wr] [Gwr] [fe] [Tu] [dTu] [fe] [Tu] [GTu] [SE] [Tu] [Tu] [fE] [Tu] [Tu] [fr] [yI] [dIp] [Se] [Tu] [dup] [p9] y u y W y u y w y u o [I9] u y e [p9] y u y W y u y w y u o [I9] u y e [pw] y u y e y u I u [ye][Gy] [SI] [Gp] [SI] [Gp] [SI] [Gy] [SI] [Gp] [SI] [Gp] [SI] [ar] [pY] [SI] Y [pI] [aY] [fr] [DY] [fI] [GY] [DI] [aY] [Gw] [ar] [Gy] [ar] [Gy] [ar] [Gw] [PE] [Gy] [PE] [hy] E [Gy] [dI] [Gp] [dI] [fp] [GI] [fT] u [dp] u [Sp] u [Gy] [SI] [Gp] [SI] [Gp] [SI] [Gy] [SI] [Gp] [SI] [Gp] [SI] [ar] [pY] [SI] Y [pI] [aY] [fr] [DY] [fI] [GY] [DI] [aY] [Gw] [ar] [Gy] [ar] [Gy] [ar] [Gw] [PE] [Gy] [PE] [hy] E [Gy] [dI] [Gp] [dI] [fp] [GI] [ST] I [Gp] I [Sp] u [do] y o [py] [ao] [SI] [du] T [SI] e [dr] T [pu] I T [aI] [pT] [ow] [Ie] T [GI] y [fo] I [dr] y I [py] [aI] [Sr] [de] T [Su] T [dI] P [Ga] I u [hr] [Gy] [fo] [dp] I [fu] y [Su] I [do] yo [py] [ao] [SI] [du] T [SI] e [dr] T [pu] I T [aI] [pT] [ow] [Ie] T [GI] y [fo] I [dr] y I [py] [aI] [Sr] [de] T [Su] T [dI] P [Ga] [dI] [Ga] [dI] [fa] [GI] [fp] u [dp] u [Sp] u [py] [Ip] [Ip] [jy] [Ip] [Ip] [fT] [up] [up] T [up] [up] [dr] [yI] [yI] [jr] [yI] [yI] [pe] [Tu] [Tu] e [Tu] [Tu] [pw] [ry] [ry] [dw] [ry] [ry] [jQ] [ey] [ey] Q [ey] [key] [j0] [wr] [wr] [f0] [wr] [wr] [de] [Tu] [Tu] e [Tu] [Tu] [py] [Ip] [Ip] [jy] [Ip] [Ip] [fT] [up] [up] T [up] [up] [dr] [yI] [yI] [jr] [yI] [yI] [pe] [Tu] [Tu] e [Tu] [Tu] [pw] [ry] [ry] [dw] [ry] [ry] [jQ] [ey] [ey] Q [ey] [key] [j0] [wr] [wr] [f0] [wr] [wr] [de] [Tu] [Tu] e [Tu] [Tu] [pw] [ry] [ry] [jw] [ry] [Gry] [fw] [ry] [dry] [Sw] [ry] [dry] [fQ] [eT] [eT] [LQ] [leT] [keT] [jQ] [eT] [eT] Q [eT] [eT] [a0] [wr] [wr] [j0] [wr] [Gwr] [fe] [Tu] [dTu] [fe] [Tu] [GTu] [SE] [Tu] [Tu] [fE] [Tu] [Tu] [fr] [yI] [dIp] [Se] [Tu] [dup] [pw] [ry] [ry] [jw] [ry] [Gry] [fw] [ry] [dry] [Sw] [ry] [dry] [fQ] [eT] [eT] [LQ] [leT] [keT] [jQ] [eT] [eT] Q [eT] [eT] [a0] [wr] [wr] [j0] [wr] [Gwr] [fe] [Tu] [dTu] [fe] [Tu] [GTu] [SE] [Tu] [Tu] [fE] [Tu] [Tu] [fr] [yI] [dIp] [Se] [Tu] [dup] [p9] y u y W y u y w y u o [I9] u y e [p9] y u y W y u y w y u o [I9] u y e [pw] y u y e y u I u [ye] ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
+Section:NewButton("Interstellar Main Theme", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+ 
+shared.scr = [[ u t u t u t u t
+u t u t u t u t
+u t u t u t u t
+[eup] t u t u t u t
+u t [rua] y u y u y
+u y u y u y [eup] t
+[rua] y [tus] y [rua] y [eup] y
+[rua] y [tus] y u y u y
+[rua] y u y u y u y
+[48qup] t [uf] t u t [48qup] t
+[uf] t u t [59wua] y [uf] y
+u y [59wua] y [uf] y u y
+[60eus] t [uf] t u t [60eus] t
+[uf] t u t [59wud] y [uf] y
+u y [59wud] y [uf] y [ua] y
+[48qup] t [upf] t [up] t [4up] t
+[upf] t [up] t [5ua] y [uaf] y
+[ua] y [5ua] y [uaf] y [ua] y
+[6us] t [usf] t [us] t [6us] t
+[usf] t [6us] [t] [5od] y [rof] u
+[wod] y 9 [wyod] 9 w 9 [7uoaf] 9 7 5 [2oadh] p s f
+[1j] 4 [qtfjx] [eu] [qtpfj] [eu] p s f [48j] q
+[tfjx] [eu] [qtpsfj] [eu] a d f [5k] [wy] [rufhx] [wy]
+[ruafk] [wy] a d f [5k] [wy] [rufx] [wy] [ruafk] [wy]
+[6sfjl] [et] [ufjx] [et] [usfl] [et] [6sfjl] [et]
+[ufjx] [et] [usfjl] [et] [5dfhz] [wy] [rufhkx] [wy]
+[rudhkz] [wy] [rudhkz] [wy] [rufhkx] [wy] [5afk]
+[4psfj] [qt] [eufjx] [qt] [eupfj] [qt] [4psfj] [qt]
+[eufjlx] [qt] [eupsfj] [qt] [5adfk] [wy] [rufhkx] [wy]
+[ruadfk] [wy] [5adfk] [wy] [rufhkx] [wy] [ruadfk] [wy]
+[6sfjl] [et] [ufjkx] [et] [usfl] [et] [6sfjl] [et]
+[ufjlx] [et] [esfjl] [60] d h k [25z] [wy] [rufhkx] [wy]
+[ru] [wydz] [rudhkz] [wy] [rufhkx] [wy] a d f [wk] 5 p s f
+[1j] [qt] d [ef] d [is] a [ts] a [ep] o [tp] u [ey] u
+[qy] t [8r] t [4r] e [8w] e [4q] w [80] q [0] 3
+3 9 0 e r y u p a d f j k z x b
+n
+[30] 7 0 W r y u O a d f H k z x
+V n
+s
+p u s p u s p u s p u s p u s
+p u s p u s p u s p u s p u s p
+u s p u [wrts] p u s p u s p u s p u
+s p u s p u s p u s p u s p u s
+p u s p u s p u [qets] p u s p u s p
+u s p u s p u s p u s p u s p u
+s p u s p u s p u s p u [wrta] p u a
+p u a p u a p u a p u a p u a p
+u [wrts] p u s p u s p u [5wd] a o y d a o y
+d a o y [6] f s p u f s p u f s p u [et] f s p
+u f s p u f s p u f s p u f s p u f s
+p u [etf] s p u f s p u f s p u [wrt] f a p u f
+a p u f a p u f a p u f a p u f a p u x f
+a p u f a p u f a p u [wrtf] a p u f a p u
+f a p u [4f] a p u f a p u f a p u x f a p
+u f a p u f a p u f a p u f a p u f a
+p u [4] d a p u d a p u d a p u [25f] a p u f a
+p u f a p u x f a p u f a p u f a p u [25] f
+a p u f a p u f a p u [wry] h f a o h f a o
+h f a o [36] j f s p j f s p j f s p [etu] x l j
+f x l j f x l j f [36] j f s p j f s p j f
+s p [etu] x l j f x l j f x l j f [25] k f d a k f
+d a k f d a [wryu] x k j f x k j f x k j f [25] k
+f d a k f d a k f d a [wryu] x k j f x k j f
+x k j f [14] l j f s l j f s l j f s [qetu] x k j
+f x k j f x k j f [14] l j f s l j f s l j
+f s [qetu] x k j f x k j f x k j f [25] z k j d z k
+j d z k j d [wryu] x k j f x k j f x k j f [25] z
+k j d z k j d z k j d [wryu] x k j f x k j f
+x k j f [36] j f s p j f s p j f s p [etu] x k j
+f x k j f x k j f [36] j f s p j f s p j f
+s p [etu] x k j f x k j f x k j f [25] k f d a k f
+d a k f d a [wryu] x k j f x k j f x k j f [25] k
+f d a k f d a k f d a [wryu] x k j f x k j f
+x k j f [14] l j f s l j f s l j f s [qetu] x k j
+f x k j f x k j f [14] l j f s l j f s l j
+f s [qetu] x k j f x k j f x k j f [25] z k j d x k
+j f z k j d [wryu] x k j f z k j d x k j f [25] z
+k j d x k j f v z k h [wryu] v z k h b z k j 5 n
+x z k [48] m b x l q m b x l e m b x l t m b x l i m
+b x l [qt] m b x l [48] m b x l q m b x l t m b x l
+[ei] n x l k t n x l k q n x l k [2] b z k j 5 b z k j
+7 b z k j v 9 z k h w v z k h e v z k h r v z k h
+y v z k h o v z k h [ry] v z k h w v z k h [59] c z k
+g [3] x l k f 6 x l k f 0 x l k f e x l k f 6 x l k
+f r x l k f 6 z l k f 0 z l k f t z l k f 0 x l k
+f e x l k f 0 x l k f 5 x k j f w x k j f e x k j
+f w z k j f 0 z k j f w z k j f 5 x k j f e x k
+j f w x k j f 0 z k j f 5 z k j f z k j f [1] x k
+j f 4 b x l j b 8 x l j [48] x l j f q l k j s [48q] j f
+s p [48] j f s p q x l j f [48q] x l j f [48l] j f s [ql]
+j f s [48qj] f s p [50k] h f a [wk] h f a [yx] k h f [rux]
+k h f [wyx] k h f [ruk] h f a [5k] h f a [wk] h f a [yx]
+k h f [rux] k h f [wyx] k h f [ruk] h f a [6el] j f s
+[tl] j f s [eux] k j f [etux] k j f [etux] k j f [el] j f s
+[6el] j f s [tl] j f s [eux] k j f [etux] k j f [etux] k j f
+[6el] j f s [5wz] h f d [yz] h f d [rux] k h f [ryux] k h
+f [ryux] k h f [wz] k h d [5wz] k h d [yz] k h d [rux] k h
+f [ryux] k h f [ryux] k h f [5wk] h f a [4qj] f s p [qtj] f s
+p [euj] f s p [qtj] f s p [euj] f s p [qtj] f s p [euj] f s
+p [qtj] f s p [euj] f s p [qtj] f s p [euj] f s p [qtj] f
+s p [wuj] f d d a [yj] f d a [ruj] f d a [wuj] f d a [yj] f
+d a [ruj] f d a [wyj] f d a [ruj] f d a [wyj] f d a [ruj]
+f d a [wyj] f d a [ruj] f d a [euj] f s a [tj] f s a [uj]
+f s a [uj] f s a [uj] f s a [uj] f s a [ej] f s p
+[uj] f s p [uj] f s p [uj] f s p [uj] f s p [uj] f s p
+[wok] f d a [uk] f d a [ok] f d a [uk] f d a [ok] f d a
+[uk] f d a [wk] f a [uk] f a [ok] f a [uk] f a [wk]
+f a [uk] f a [qtpl] s f x
+f j l j l x x b
+x b m k x [wan] k
+x x n n k x n
+k x x n n k x
+[esm] l x x b m l
+x m l x x b m
+l x [wua] z x x v
+z n x v z
+v n k x [qpb] j x [s]
+x b [pfb] j x [isfb] j x
+[psf] x b [isfb] j x [on] [pk]
+[ax] [d] [fx] [dn] [an] [pk] [ax] [o]
+[px] [an] [dn] [fk] [dx] [a] [px] [dn]
+[pm] [al] [sx] [f] [sx] [ab] [sm] [al]
+[sx] [pm] [al] [sx] [f] [sx] [ab] [pm]
+[sl] [ax] [o] [az] [dx] [f] [dx] v a
+[d] [fz] [dv] [o] [dz] [av] [f] [dx]
+[av] [on] [dk] [ax] [ib] [oj] [px] [s]
+[fx] [sb] [pm] [sl] [px] [ib] [oj] [px]
+[s] [fx] [sb] [pb] [oj] [px] [on] [pk]
+[ax] [d] [fx] [dn] [an] [pk] [ox] [pn]
+[ak] [dx] [f] [dx] [an] [pn] [ok] [ax]
+[pm] [al] [sx] [f] [sx] [ab] [pm] [sl]
+[ax] [pm] [sl] [ax] [s] [fx] [sb] [am]
+[pl] [ax] [o] [az] [dx] [f] [dx] [av]
+[f] [dz] [av] [o] [az] [dv] [f] [dx]
+[av] [o] [av] [dn] [i] [ob] [pm] [s]
+[gb] [hm] [j] [lb] [cm] [v] [bm]
+m m m
+[5] [9m] [w] [e] [rb] [y] [o]
+[pn] [a] [d] [f] [hn] [jv] [kx]
+z k h f
+s f s f s f s
+f s f s f s f s
+f s [pf] s f s f s
+f s [af] d f d f d
+f d f d f d [pf] s
+[af] d [sf] d [af] d [pf] d
+[af] d [sf] d f d f d
+f d [af] d f d f d
+[5f] d [ip] 4 [qpf] [wd] [ef] d
+[epf] [tp] [uf] [td] [epf] [qd] [5oa] [9o]
+[wf] [ed] [raf] [yd] [uoa] y [rf] [ed]
+[wf] [9d] [6s] [rp] [tf] [ud] [tf] [rad]
+[6s] [0p] [taf] [rd] [esf] [0ps] [5wad] [9p]
+[eof] [9p] [wad] [9o] [5oad] [9y] [eoaf] [wu]
+[9ua] [5r] [1tup] [4et] [qpf] [tup] [etp] [qt]
+[1tup] [4e] [qpf] [tu] [qup] [4t] [ya] [5r]
+[woaf] [ru] [wua] [50r] [ryua] [5r] [5uof] [wu]
+[0wua] [5r] [3us] [6tu] [60upf] [80eup] [60tus] [8etup] [tup]
+[3tups] [6tup] [tup] [680upsf] [ups] [ups] [60etups] [6tup] [tup] [2yuod] [5yuo] [yuo]
+[59uoaf] [7uoa] [uoa] [uoa] [59yoad] [wyoa] [yoa] [yoa] [eyoad] w 9 7 w 9 [7uoaf] e w 9 7 5
+[2oadh] [14psfj] q e t [ufjlx] t e y t e [psfj] y t e w q 8
+[4psfj] 8 q w e t [yfjlx] t y t e w [qpsfj] 8 6 4 [adfk] 2 3 5
+[7fhkx] 9 0 w r y [uak] y f u d y a r d y f [rak] u f y d r a y d [rf] [ufx] y k r h w f 0 h [7k]
+[wak] 0 h 7 f 5 a 3 f [5h] [sl] [3j] 6 f s 8 0 f [ej] [rfx] u l [tj] [rf] t j k u [tpj] r f e s 0 p e s f 0
+[6sl] 0 j e f r s t f [uj] [tfx] r k e j 0 f e j [0k] [8dz] 6 k 6 j 3 d 6 j [3k] [dz] k j 2 d 5 j [7k]
+[9fx] w k j f j k [wryudz] k j d j k [50wdz] k j d j k [25fx] k h f h k
+[25hv] x k h k x [14jb] x l j l x [qetux] m b x b m [qetujb] x l j l x
+[48qjb] x l j l x [qetux] m b x b m [qetujb] x l j l x [25kn] x z k z x
+[wryux] n v x v n [wryukn] v x k x v [5wkn] v x k x v [wryux] n v x v n
+[wryukn] v x k x v [36lm] b x l x b [etux] n b x b n [etulm] b x l x b
+[36lm] b x l x b [etux] m b x b m [etulm] b x l x b [5z] v x z x v
+[wryux] n v x v n [wryuz] n v z v n [wryu] n v z n v z [579wn] v z k m v z l
+[b] z l j n x l k [14b] x l j v z k h c l j g [etix] k h f z j g d l h f s
+[qetuk] g d a j f s p h d a o [yg] s p i f a o u d p i y [48s] o u t s o u t
+p u t e [4o] y r w i t e q u r w 0 [4y] e q 9 t w 0 8 r q 9 7 [e] 0 8 6
+w 9 7 5 q 8 6 4 [30]
+3 7 0 e r y u p a d j k z x f j k z b n
+[W30ru]
+[ufx]
+[40qet] [ufx]
+[tsl] [5wryu]
+[ydz] [rak]
+[6wetu] [ufx]
+[tsl] [50wry]
+[ydz] [rak]
+[40qet] [fx]
+[pjb] [50wry]
+[fx] [akn]
+[6ertu] [fx]
+[slm] [590wr]
+[dz] [fx] b x l
+[4j] [4qup] [qeyp] [qtup] [qeyp]
+[qtup] [qeyp] [qtup] [qeyp] [qtup] [qeyp] [qtup] [qeyp]
+[qtup] [qeyp] [qtup] [qeyp] [qtup] [qeyp] [qtup] [qeyp]
+[wrup] [wyp] [wrup] [wyp] [wrup] [wyp] [wrup] [wyp]
+[wrup] [wyp] [wrup] [wyp] [wrup] [wyp] [wrup] [wyp]
+[tup] [ryp] [tup] [ryp] [tup] [ryp] [tup] [ryp]
+[tup] [ryp] [tup] [ryp] [tup] [ry] [tup] [ry]
+[wrua] [wy] [wrua] [wy] [wrua] [wy] [wrua] [wy]
+[wrua] [wy] [wrua] [wy] [wrua] [wy] [wrua] [wy]
+[tus] [ry] [tus] [ry] [tus] [ry] [tus] [ry]
+[tus] [ry] [tus] [ry] [tus] [ry] [tus] [ry]
+[wrua] [wy] [wrua] [wy] [wrua] [wry] [wrua] [wry]
+[wrua] [wry] [wrua] [wry] [wrua] [wry] [wrua] [wry]
+[qetup] [qety] [qetup] [qety] [qetup] [qety] [qetup] [qety]
+[qetup] [qety] [qetup] [qety] [qeup] [qy] [4qup] [4y]
+[4up] [4y] [4up] [4y] [4up] [4y] [4up] [4y]
+[5up] [5wy] [5wup] [5wy] [5wup] y [up] [5wy]
+[5wup] y [up] y [4qup] y [up] y
+[0eu] 3 6 8 0
+e t e u t u t u
+t [6e] t u t u t u
+t [ep] ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
+Section:NewButton("Bella Ciao(Badussy LOL)", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+ 
+shared.scr = [[ 5 [ryI] 
+2 [eTI] 
+5 [ryI] 
+2 [eTI] 
+5 [ryIG] j 
+[2h] [eTIG] S 
+[5a] [ryIS] d 
+[2p] [eTI] 
+[5I] [ryI] 
+2 [eTI] 
+5 [ryI] 
+2 [eTI] 
+5 [ryIG] j 
+[2h] [eTIG] S 
+[5a] [ryIS] d 
+[2p] [eTI] 
+[$S] [eTI] 
+[7G] [ryI] 
+[3u] [wr] 
+3 [ryo] 
+2 [qey] 
+[6p] [etua] s 
+[2f] [wrud] a 
+[2d] [9wrus] a 
+[2d] [80ey] 
+2 [Q8ey] d 
+[2f] [etig] h 
+[2j] [etus] d 
+[2f] [9wrud] a 
+[2d] [80ey] 
+2 [Q8ey] d 
+[3h] [ruo] 
+[$G] [eTI] 
+[7a] [Iryp] a 
+[3S] [Tupd] f 
+[3S] [TIepd] f 
+[3I] [7ey] [0ryo] 
+[6wtups] 
+[I269ypd] 
+[3h] [ruo] 
+[3g] [eyip] 
+[3a] [etis] g 
+[3f] [tupd] s 
+[3f] [etipd] s 
+[3i] [7ey] [0ryo] 
+[6wtups] 
+[269yipd]  ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
