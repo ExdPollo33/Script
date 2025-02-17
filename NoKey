@@ -2673,7 +2673,7 @@ shared.tempo = nil -- tempo overides the delay
 
 shared.scr = [[ 7 7 7 [7u] o p [0a] a a d s [9a] a a p a [8o] o o p a [7Ya] p u o p [0a] a a d s [9a] p o I [8uo] a s [7s] a a s [0oa] 0 0 0 0 0 Q w [8ua] 8 8 8 8 8 [ua] [5ad] [5f] [5G] [5d] [7fh] [7j] [7DG] ( 0 Q [0f] [0f] [9dG] [8afh] 0 a p o [0I] u I o [up] 8 o I 8 p [oa] 5 5 [oa] [oa] s [Ip] [7uo] [Yp] [8oa] p [8o] p [9o] p [9I] y [8u] [oa] [8p] a [oad] 5 5 p o p [7YI] 7 I o p [7fa] [7Da] 7 7 7 7 7 7 7 u o p [0oa] a a d s [9oa] a a p a [8uo] o o p a [7Ya] p u o p [0oa] a a d s [9oa] [Ip] o I [8uo] o s [7Ys] a o [8u] u a [9Ip] p o I [0u] o o [9Ip] [8u] u o a [7Ya] p 7 [pd] [ps] [0ps] a [9Ia] [8ua] [7Ya] [0f] [0f] [9dG] [8afh] ]]
 
-loadstring(game:HttpGet(""))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
 Section:NewButton("Boku no Hero Academia・Peace Sign", "Autoplayf", function()
